@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)https://web.njit.edu/~wme4/PhotographyGallery/photographyPage.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Building Web Applications</title>
+
+    <!-- Bootstrap -->
+   <link href="./S Pepperoni Gallery_files/bootstrap-4.0.0.css" rel="stylesheet"> <link href="./bootstrap-4.0.0(1).css" rel="stylesheet">
+    <link href="styles1.css" rel="stylesheet">
+	
+	
+	<!--Script-->
+	<!--<script type="text/javascript" src="landing.js"></script>-->
+	
+  </head>
+  <body>
+   <nav class="navbar navbar-expand-lg navbar-light bg-white">
+       <a class="navbar-brand" href="https://web.njit.edu/~wme4/#">WE</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">             
+			  	<a href="ProductList.html" class="nav-link" >Products Page</a>
+				<a href="#" class="nav-link">Home Page</a>
+          </ul>
+          <!--
+			  <form class="form-inline my-2 my-lg-0">
+             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>-->
+       </div>
+    </nav>
+    
+  <div class="container">
+       <br>
+       <!--<hr>-->
+       <br>
+		<div class="row">
+			
+			 <div class="col-md">
+             <div class="card">
+				 <!-- I based some of my carousel off the tutorial from here: https://medium.com/@marcusmichaels/how-to-build-a-carousel-from-scratch-in-vanilla-js-9a096d3b98c9 I am aware that Bootstrap has a built in function but I figured I'd probably learn more if I did it from scratch-->
+				 <div class="WyattContainer">
+				 <div class="WyattCarousel" id="wyattCon">
+						<img class="carImage" id="img1" src="midtownCropWeb.png" alt="Midtown">
+					 	<!--<img class="carImage" src="midtownGradMap.png" alt="Midtown">
+					 	<img class="carImage"  src="midtownBw.png" alt="Midtown">-->
+					 	
+					 
+                <!-- Static Image <img class="card-img-top" src="./midtownCropWeb.png" alt="Midtown">-->
+				</div>
+				 </div>
+		<br>
+                <div align="center"><h2>| Steve's Sandals |</h2></div>
+		<div style="" align="center"><h2 style="font-size:8pt;margin-top:-10px;">Electronic Storefront</h2>
+				 </div>
+	<br>
+				 </div>
+       <!--<hr>-->
+       <br>
+		<div class="row">
+			<div class="col-md">
+			 
+				
+			 <div class="card" id="MainContainer">
+				<div class="card-body">
+					<div id="FilterSpace">
+						
+						<br>
+						<p>Order By: <select id="orderBy">
+							<option value="name">Title</option>
+							<option value="price">Price</option>
+							</select> </p>
+						<p>Price Range: <select id="priceType">
+							<option>Select</option>
+							<option value="2">Medium</option>
+							<option value="1">Low</option>
+							<option value="3">High</option>
+							</select></p>
+						<p>Open Or Closed? <select id="openType">
+								<option>Select</option>
+								<option value="1">Open</option>
+								<option>Closed</option>
+							</select></p>
+					</div>
+					<hr>
+					<div id="productViewingSpace" class="vSpace">
+						<p>List Should go here</p>
+					</div>
+				 </div>
+</div>
+			</div>
+	  </div>
+				 
+	  <br>
+		</div>
+	  </div>
+	<div class="card-footer" style="color: grey">
+		<div class="flex-column"><p>© MMXVIII Wyatt Eynon NJIT - Some extra text to demo flex box. Some extra text to demo flex box.Some extra text to demo flex box.Some extra text to demo flex box.</p></div>
+		
+</div>
+				 
+	<script type="text/javascript" src="productList.js"></script>
+   
+    <script src="./jquery-3.2.1.min.js.download"></script>
+
+   
+    <script src="./popper.min.js.download"></script>
+				
+    <script src="./bootstrap-4.0.0.js.download"></script>
+	</div>
+
+</body>
+	  
+	  </html>
